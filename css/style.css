@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color:rgb(255, 255, 255);
+    text-align: center;
+}
+main{
+    background-color: blue;
+}
+footer{
+    background-color: red (146, 21, 21, 0.367);
+    padding: 10px 50px;
+}
+
+#about{
+    padding: 10px 50 px;
+    text-align: center;
+}
+#articles{
+    background-color:bisque;
+    padding: 10px 50px;
+}
+p{
+    text-align: justify;
+    font-size: 1.2rem;
+    line-height: 40px;
+    margin-bottom: 20px;
+    color: black;
+}
+h1 {
+    text-transform: uppercase;
+    color: black;
+    font-size: 2rem;
+    font-style: italic;
+}
+h2{
+    font-size: 1.5rem;
+    text-decoration: overline;
+    text-align: center;
+}
+ul{
+    list-style: none;
+}
+img {
+    border: 25em;
+    border-radius: 1em;
+    box-shadow:inset ;
+}
+#picture1{
+    display: block;
+margin: 0 auto;
+}
+#picture2{
+    display: block;
+    margin: 0 auto;
+}
+#ph {
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+}
+
+a:hover{
+    color: yellow;
+    text-decoration: underline;
+}
+a:focus{
+    font-size: large;
+}
+.avatar {
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+.social-icon {
+    margin: 10px;
+}
+#anot:hover{
+    color: rgb(123, 116, 150)#f00;
+    text-decoration:dashed;
+}
+#anot:focus{
+    font-style: oblique;
+}
+#stat:hover{
+    color: rgb(211, 211, 224);
+    text-decoration: double;
+}
+#stat:hover{
+    flex:content ;
+}
+li:nth-child(even){
+    background-color: white;
+}
+li:nth-child(odd){
+    background-color: white;
+}
+.opa::after {
+    content: "Важно!";
+    display: inline-block;
+    padding: 0.2em 0.5em;
+    margin-right: 0.5em;
+    border: 1px solid rgb(12, 243, 81);
+    background-color: rgb(77, 4, 212);
+    color: rgb(44, 122, 212);
+    font-weight: bold;
+  }
+.article p:first-line {
+    letter-spacing: 3px;
+  }
+  #about{
+    font-weight: normal;
+    background-color: green;
+}
+.social-icon {
+    border: 3px solid #f00;
+}
+img + p {
+    margin-top: 10px;
+  }
+  
+
+.check-table{
+    border: dotted 7px red;
+    border-collapse: collapse;
+}
+.check-table td,
+.check-table th{
+    border: dashed 2px black;
+    padding: 5px 10px;
+}
+
+.check-table tr:nth-child(odd){
+font-weight: bold;
+color: #f00;
+}
+.check-table td:last-child,
+.check-table th:last-child{
+background-color: aqua;
+text-align: center;
+}
